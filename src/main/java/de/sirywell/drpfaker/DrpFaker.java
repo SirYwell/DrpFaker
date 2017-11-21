@@ -90,9 +90,4 @@ public class DrpFaker {
         }
         return object;
     }
-
-    public static DiscordRichPresence fromJson(JsonObject object) {
-        DiscordRichPresence presence = new DiscordRichPresence();
-        if(object.has("cli"))
-    }
 }
